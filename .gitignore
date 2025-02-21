@@ -1,0 +1,40 @@
+# Python Virtual Environments
+env/
+venv/
+
+# Python Bytecode Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and Databases
+*.log
+*.sqlite3
+migrations/
+
+# Environment Variables (Do not commit credentials)
+.env
+.env.*
+!.env.example  # Allow an example env file
+.env.prod
+.env.prod.db  # Contains production credentials (do not track)
+
+# Docker-Specific Files
+*.pid
+*.sock
+*.tar
+*.log
+postgres_data/
+postgres_data_prod/
+docker-compose.override.yml  # Ignore local override configs
+
+# IDE & Editor-Specific Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-Specific Files
+.DS_Store
+Thumbs.db
