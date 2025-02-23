@@ -12,10 +12,8 @@ The project follows a **step-by-step containerization process**:
 - **Static & media file handling** through Nginx
 
 ### 🎥 Demo GIF – Uploading an Image  
-*(Replace this with your actual GIF showing the file upload process.)*  
-![Upload Demo](upload-demo.gif)  
+![Upload Demo](upload_tutorial.gif)  
 
----
 
 ## 🛠️ Build & Run Instructions  
 
